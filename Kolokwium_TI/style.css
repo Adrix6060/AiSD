@@ -1,0 +1,128 @@
+body
+{
+    background-color: grey;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: Verdana yellow;
+    font-size: 12px;
+}
+
+table
+{
+    height: 500px;
+    width: 600px;
+
+}
+
+table, td
+{
+    text-align:center;
+    border: dashed 3px;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+#wiersz1
+{
+    height:20px;
+}
+#wiersz2
+{
+    height: 80px;
+}
+#wiersz4
+{
+    height: 200px;
+}
+
+.table2
+{
+    border: solid 5px;
+    text-align:center;
+    border-collapse: collapse;
+    font-size: 20px;
+    height: 90%;
+    width:90%;
+    
+
+}
+.table2 td
+{
+    border: solid 5px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#komorkaTab
+{
+    height: 80px;
+    width: 50px;
+}
+#red
+{
+    background-color: red;
+}
+#yellow
+{
+    background-color:yellow;
+}
+
+#listaA
+{
+    list-style-type:upper-alpha;
+    font-weight: bold;
+
+}
+
+#listaB
+{
+    color: red;
+    font-weight: lighter;
+}
+
+#listaC
+{
+
+    color: lightskyblue;
+    list-style-type:upper-roman;
+}
+
+#listaD
+{
+    color: black;
+    list-style-type: disc;
+}
+
+#legend
+{
+    text-align: center;
+
+}
+
+#div2
+{
+    position: relative;
+    left: 150px;
+    bottom: 55px;
+}
+
+#fieldset2
+{
+    height: 80px;
+    width: 300px;
+}
+
+#fieldset3
+{
+    height: 80px;
+    width: 100px;
+}
+
+#lista
+{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}

@@ -1,0 +1,112 @@
+<html>
+
+<head>
+
+
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Kolokwium TI 1</title>
+
+</head>
+
+<body>
+
+    <table>
+        <tr id="wiersz1">
+            <td>1</td><td>2</td><td>3</td><td>4</td><td id="yellow" rowspan="5">5</td>
+        </tr>
+        <tr id="wiersz2">
+            <td rowspan="3">6</td><td>7</td><td colspan="2">8</td>
+        </tr>
+        <tr>
+            <td id="red" colspan="2">9</td><td>10</td>
+        </tr>
+        <tr id="wiersz4">
+            <td>11</td><td id="komorkaTab" colspan="2">
+            
+                <table class="table2">
+                    <tr>
+                        <td>a</td><td>b</td>
+                    </tr>
+                    <tr>
+                        <td>c</td><td>d</td>
+                    </tr>
+                </table>
+                
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">13</td>
+        </tr>
+    </table>
+
+<br><br><br>
+
+        <ol id="listaA">
+            <li>Pozycja pierwsza</li>
+            <li>Pozycja druga</li>
+                <ol id="listaB" start="7">
+                    <li>Pozycja pierwsza</li>
+                    <li>Pozycja druga</li>
+                        <ol id="listaC">
+                            <li>Pozycja pierwsza</li>
+                            <li>Pozycja druga</li>
+                                    <ul id="listaD">
+                                        <li>Pozycja pierwsza</li>
+                                    </ul>
+                        </ol>
+
+                    <li>Pozycja trzecia</li>
+
+                </ol>
+                <li>Pozycja Trzecia</li>
+        </ol>
+<br><br><br>
+<form>
+<fieldset id="fieldset2">
+<legend id="legend">obramowanie formularza</legend>
+<div>
+    <input selected type="checkbox"> opcja pierwsza<br>
+    <input type="checkbox"> opcja druga<br>
+    <input type="checkbox"> opcja trzecia<br>
+</div>
+<div id="div2">
+    <input disabled type="checkbox"> opcja pierwsza<br>
+    <input type="checkbox"> opcja druga<br>
+    <input type="checkbox"> opcja trzecia<br>
+</div>
+</fieldset>
+</form>
+
+<form>
+    <textarea >pole tekstowe</textarea>
+</form>
+
+<form>
+    <div id="lista">
+        <select> 
+        <option>lista rozwijalna</option>
+        <option>lista rozwijalna1</option>
+        <option>lista rozwijalna2</option>
+    </select>
+</div>
+
+    <input value="wyślij" type="submit">
+    <input value="wyczysc" type="reset">
+
+    
+</form>
+
+
+
+
+
+
+<!-- </form> -->
+
+
+</body>
+
+
+</html>
