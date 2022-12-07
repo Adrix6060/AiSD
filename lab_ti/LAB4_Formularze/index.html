@@ -1,0 +1,120 @@
+<html>
+
+
+<head>
+    <meta charset="UTF-8"  />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Formularze</title>
+
+</head>
+
+<body>
+<form class="form1" action="mailto:adrianmyszak2002@wp.pl">
+<fieldset>
+<legend>Imię i nazwisko</legend>
+<div id="lista">
+<select name="Wybierz kierunek na którym studiujesz">
+<optgroup label="Politechnika Rzeszowska">
+    <option>Informatyka</option>
+    <option>Lotnictwo</option>
+</optgroup>
+<optgroup label="Uniwersytet Rzeszowski">
+    <option>Socjologia</option>
+    <option selected>Informatyka</option>
+</optgroup>
+<optgroup label="Wyższa Szkoła Informatyki i Zarządzania">
+    <option>Diennikarstwo</option>
+    <option>Marketing internetowy</option>
+</optgroup>
+</select>
+</div>
+
+
+
+<div id="checkbox">
+<p>Czym się interesujesz:</p>
+<input type="checkbox" name="zainteresowania" value="Sztuka">Sztuka<br>
+<input type="checkbox" name="zainteresowania" value="Informatyka">Informatyka<br>
+<input type="checkbox" name="zainteresowania" value="Sport">Sport<br>
+</div>
+
+<div id="radio">
+    <p>Płeć:</p>
+<input type="radio" name="plec">Kobieta<br>
+<input type="radio" name="plec">Mężczyzna<br>
+</div>
+
+<div id="textarea">
+    <p>Napisz coś o sobie:</p>
+<textarea disabled>Chciałbyś coś napisać ale nie możesz :)</textarea>
+</div>
+
+<div id="haslo">
+    <p>Wpisz hasło:</p>
+<input disabled type="password"><br><br><br>
+<p><input type="reset" value="Wyczyść"></p><br>
+<input type="submit" value="Wyślij" >
+</div>
+
+
+</fieldset>
+</form>
+
+<br><br><br>
+<form class="form2">
+<fieldset id="height">
+<legend>Formularz</legend>
+<div id="dane">
+   <p>dane identyfikacyjne:</p>
+   <hr>
+   Firma*<input type="text"><br> 
+   Ulica<input type="text"><br>
+   Miejscowość<input type="text"><br>
+   Kod pocztowy<input type="text"><br>
+   NIP<input type="text"><br>
+   WWW<input type="text"><br>
+</div>
+<div>
+    <p>informacje dodatkowe</p>
+    <hr>
+    Zakupy<br><input type="radio" name="zakupy">detaliczne<br>
+        <input type="radio" name="zakupy">hurtowe<br>
+    Prowadzę<br> <input type="checkbox">hurtownię<br>
+    <input type="checkbox">salon<br>
+    <input type="checkbox">sklep<br>
+    <input type="checkbox">punkt z akcesoriami GSM<br>
+    <input type="checkbox">inny<input type="text">
+</div>
+<div id="osobakontaktowa">
+    <p>Osoba kontaktowa</p>
+    <hr>
+    Nazwisko*<input type="text"><br>
+    Imię*<input type="text"><br>
+    Telefon*<input type="text"><br>
+    Kraj*<select name="wybierz"></select><br>
+    Telefon kom.<input type="text"><br>
+    Faks<input type="text"><br>
+    E-mail*<input type="email"><br>
+</div>
+<div id="branza">
+    <p>moja główna branża to:</p>
+    <hr>
+    <input type="radio">GSM<br>
+    <input type="radio">RTV<br>
+    <input type="radio">komputerowa<br>
+    <input type="radio">materiały eksploatacyjne do drukarek<br>
+    <input type="radio">inna <input type="text">
+</div>
+<div id="danekonfiguracyjne">
+    <p>dane konfiguracyjne</p>
+    <hr>
+    Login*<input type="text"><br>
+    Hasło*<input type="password"><br>
+    Powtórz hasło*<input type="password"><br>
+</div>
+
+</fieldset>
+</form>
+</body>
+
+</html>

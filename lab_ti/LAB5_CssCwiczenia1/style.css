@@ -1,0 +1,118 @@
+body
+{
+ background-image: url(tlo.jpg);
+ background-position: center;
+ background-attachment: fixed;
+ font: Verdana;
+ font-size: 12px;
+ color: darkblue;
+}
+
+#pierwszy
+{
+    font: Arial;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#drugi
+{
+    font: "Times New Roman";
+    font-size: 200px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+
+table, td
+{
+    /* height: 400px;
+    width: 400px; */
+    background-color: red;
+    border: dashed 7px black;
+    border-collapse: collapse;
+}
+
+
+.table2
+{
+    border: solid 5px;
+    border-collapse: collapse;
+    border-color: white;
+    background-color: yellow;
+    height: 60px;
+    width: 130px;
+    
+    
+}
+
+.table2 td
+{
+    border: solid 5px;
+    border-collapse: collapse;
+    border-color: white;
+    background-color: yellow;
+    height: 60px;
+    width: 130px;
+    
+    
+}
+
+
+.lista1
+{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.lista2
+{
+    font-size: 30px;
+    color: blue;
+    font-weight: lighter;
+}
+
+a.link1
+{
+    font: Verdana;
+    color: red;
+    font-size: 20px;
+}
+a.link1:hover
+{
+    font: Verdana;
+    color: blue;
+    font-size: 100px;
+} 
+a.link1:visited
+{
+    font: Verdana;
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.link2
+{
+    font: Verdana;
+    color: blue;
+    font-size: 100px;
+}
+a.link2:hover
+{
+    font: Arial;
+    color: green;
+    font-size: 20px;
+} 
+a.link2:visited
+{
+    font: Verdana;
+    color: pink;
+    font-size: 200000px;
+    text-decoration: none;
+}
+
